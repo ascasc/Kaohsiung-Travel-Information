@@ -1,0 +1,253 @@
+
+a{
+  text-decoration:none;
+}
+.wrapper{
+  width: 1024px; 
+  margin: 0 auto;
+}
+.btn_goTop{
+  position: fixed;
+  bottom: 0;
+  right: 450px;
+  width: 24px;
+  height: 24px;
+}
+.wrapper .header{
+  height: 380px;
+  background-image: url(../img/Hero.png);
+  background-repeat: no-repeat;
+}
+.wrapper .header .title{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 3.89px;
+  line-height: 41px;
+  width: 265px;
+  height: 40px;
+  margin: 0;
+  padding: 89px 378.5px;
+  padding-bottom: 0px;
+}
+.wrapper{
+  display: block;
+}
+.wrapper form {
+  text-align: center;
+  padding-top: 96px;  
+  position: relative;
+}
+.wrapper form select{
+  width: 452px;
+  height: 48px; 
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  color: #000000;
+  line-height: 21px;
+  border: 3px solid #FFFFFF;
+  padding-left: 9.5px;
+  border-radius: 3px;    
+  -webkit-appearance: none;
+  background-image: url(../img/icons_down.png);
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+}
+.wrapper .hot-area{
+  width: 800px;
+  height: 112px;
+  margin: 0 auto;
+  margin-top: 79px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  border-radius: 5px;
+}
+.wrapper .hot-area .title-area{
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 26px;
+  font-size: 18px;
+  color: #000000;
+  padding-bottom: 14px;
+}
+.wrapper .hot-area .hot-button{
+  float: left;
+  margin: 0 30px;
+}
+.wrapper .hot-area .hot-button a{
+  display: inline-block;
+  width: 130px;
+  height: 42px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 42px;
+}
+.button-color1{
+  background: #8A82CC;
+}
+
+.button-color2{
+  background: #FFA782;
+}
+.button-color3{
+  background: #F5D005;
+}
+.button-color4{
+  background: #559AC8;
+}
+.wrapper .button-bottom{
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 121px;
+  border: 2px solid #559AC8;
+  border-radius: 100px;
+}
+.wrapper .button-bottom img{
+  position: relative;
+  top: 2px;
+  right: -4px;
+}
+.button-bottom::before{
+  content: '';
+  display: block;
+  position: relative;
+  top: 12px;
+  right: 500px;
+  border-top:1px dashed #559AC8;
+  width: 500px;
+  height: 1px;
+}
+.button-bottom::after{
+  content: '';
+  display: block;
+  position: relative;
+  top: -7px;
+  left: 25px;
+  border-top:1px dashed #559AC8;
+  width: 500px;
+  height: 1px;
+}
+
+.wrapper .content-title-area p{
+  font-size: 36px;
+  color: #8A82CC;
+  text-align: center;
+  margin-top: 65px;
+}
+.box-content{
+  width: 944px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.box{
+  width: 464px;
+  height: 273px;
+  float: left;
+  margin-bottom: 36px;
+}
+.box1{
+  margin-right: 16px;
+}
+.box-img{
+  position: relative;
+}
+.box img{
+  display: block;
+  width: 100%;
+  height: 155px;
+}
+.wrapper .box ul{
+  position: relative;
+}
+.wrapper .box .title-free{
+  position: absolute;
+  bottom: 19px;
+  right: 24px;
+  font-size: 16px;
+  color: #000000;
+}
+.wrapper .box .box-img-title{
+  position: absolute;
+  bottom: 14px;
+  left: 22px;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.wrapper .box .box-img-title-area{
+  position: absolute;
+  bottom: 11px;
+  right: 24px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.box ul{
+  margin: 0;
+  
+}
+.box li{
+  font-size: 16px;
+  color: #000000;
+  padding-top: 16px;
+  padding-left: 50px;
+  position: relative;
+}
+.box li img{
+  position: absolute;
+  
+}
+.box li .icons_clock{
+  width: 18px;
+  height: 18px;
+  left: 9px;
+}
+.box li .icons_pin{
+  width: 16px;
+  height: 20px;
+  left: 10px;
+}
+.box li .icons_phone{
+  width: 12px;
+  height: 20px;
+  left: 12px;
+}
+.box li .icons_tag{
+  width: 20px;
+  height: 20px;
+  left: 8px;
+}
+.wrapper .pages{
+  text-align: center;
+  margin-bottom: 44px;
+}
+.wrapper .pages a{
+  margin-right: 24px;;
+  font-size: 14px;
+  color: #559AC8;
+}
+.wrapper .footer{
+  height: 90px;
+  background: #559AC8;
+}
+.footer p{
+  text-align: center;
+  font-size: 14px;
+}
+.footer .webName{
+  color: #FFFFFF;
+  padding-top: 24px;
+  padding-bottom: 15px;
+}
+.footer .infoFrom{
+  margin: 0;
+  color: #FFD366;
+  padding-bottom: 23px;
+}
+.clearfix:after{
+  content:"";
+  display: table;
+  clear: both;
+}
